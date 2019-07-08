@@ -6,6 +6,9 @@
         <!-- Customize your theme here. -->
         <!--<item name="colorPrimary">@color/colorPrimary</item>-->
         <item name="colorPrimaryDark">@color/mainColor</item>
+        <!--modify status Bar and it's more high by colorPrimaryDark-->
+        <!--just will be use in APi21-->
+        <item name="android:statusBarColor">@color/mainColor</item>
         <!--<item name="colorAccent">@color/colorAccent</item>-->
     </style>
 

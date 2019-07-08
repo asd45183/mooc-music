@@ -1,9 +1,10 @@
-package com.example.moocmusic;
+package com.example.moocmusic.activitys;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.moocmusic.R;
+
+public class MainActivity extends BaseActivity {
 // 项目
 // 模块
     @Override
