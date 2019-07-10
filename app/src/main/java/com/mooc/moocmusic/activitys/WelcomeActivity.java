@@ -1,12 +1,9 @@
-package com.example.moocmusic.activitys;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.mooc.moocmusic.activitys;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 
-import com.example.moocmusic.R;
+import com.mooc.moocmusic.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -38,6 +35,7 @@ public class WelcomeActivity extends BaseActivity {
             }
         }, 3 * 1000);
     }
+
     /*跳转到MainActivity*/
     private void toMain() {
 
@@ -45,6 +43,7 @@ public class WelcomeActivity extends BaseActivity {
         startActivity(intent);
         finish();
     }
+
     /*跳转到LoginActivity*/
     private void tologin() {
 

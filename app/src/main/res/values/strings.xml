@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MoocMusic</string>
+    <string name="app_name">慕课Ｍusic</string>
+    <string name="bottom_value">Copy Right test.com.music.Ltd</string>
+    <string name="login">用户名</string>
 </resources>

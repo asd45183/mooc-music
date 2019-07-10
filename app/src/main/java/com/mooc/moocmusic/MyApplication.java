@@ -1,4 +1,4 @@
-package com.example.moocmusic;
+package com.mooc.moocmusic;
 
 import android.app.Application;
 

@@ -8,10 +8,20 @@
     android:background="@color/mainColor"
     tools:context=".activitys.WelcomeActivity">
     <!--set main page's img-->
+
     <ImageView
-        android:layout_width="131dp"
-        android:layout_height="114dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@mipmap/welcome" />
+        android:src="@mipmap/music2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="@string/bottom_value"
+        android:textColor="@color/bottomFontColor"
+        android:textSize="@dimen/navBarBottomSize" />
 
 </FrameLayout>

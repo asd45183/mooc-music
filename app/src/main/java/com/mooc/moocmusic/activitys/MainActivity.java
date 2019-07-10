@@ -1,11 +1,11 @@
-package com.example.moocmusic.activitys;
+package com.mooc.moocmusic.activitys;
 
 import android.os.Bundle;
 
-import com.example.moocmusic.R;
+import com.mooc.moocmusic.R;
 
 public class MainActivity extends BaseActivity {
-// 项目
+    // 项目
 // 模块
     @Override
     protected void onCreate(Bundle savedInstanceState) {

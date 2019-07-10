@@ -1,13 +1,12 @@
-package com.example.moocmusic.activitys;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.mooc.moocmusic.activitys;
 
 import android.os.Bundle;
 
-import com.example.moocmusic.R;
+import com.mooc.moocmusic.R;
+import com.mooc.moocmusic.views.InputView;
 
 public class LoginActivity extends BaseActivity {
-
+    private InputView mInputPhone, mInputPassowrd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +17,10 @@ public class LoginActivity extends BaseActivity {
 
 
     /*
-    * init view
-    * */
-    private void initView(){
-        initNavBar(false,"登录",false);
+     * init view
+     * */
+    private void initView() {
+        initNavBar(false, "登录", false);
+
     }
 }
